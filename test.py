@@ -40,11 +40,11 @@ plane = scene.add_entity(
 #     )
 # )
 robot = scene.add_entity(
-    # gs.morphs.MJCF(file="assets/mjcf/wbr_cod.xml",
-    #     pos=(0.0, 0.0, 0.15)),
-    gs.morphs.URDF(file="assets/urdf/urdf/nz.urdf",
-    pos=(0.0, 0.0, 0.15)
-    ),
+    gs.morphs.MJCF(file="assets/mjcf/wbr_cod.xml",
+         pos=(0.0, 0.0, 0.15)),
+    # gs.morphs.URDF(file="assets/urdf/urdf/nz.urdf",
+    # pos=(0.0, 0.0, 0.15)
+    # ),
     # vis_mode='collision'
 )
 
